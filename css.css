@@ -1,0 +1,87 @@
+body {
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+span {
+    color: crimson;
+}
+
+.heading {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 19px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 150px;
+}
+
+nav ul li :hover {
+    color: crimson;
+    transition: .9s;
+}
+
+.container {
+    color: aqua;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: xx-large;
+}
+
+
+footer {
+    cursor: pointer;
+
+    position: relative;
+    width: 100%;
+    height: 460px;
+    /* background-image: url(./gray\ background.jpg); */
+    /* background: #45434356; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #633030;
+    top: 40%;
+    left: 2.5%;
+}
+.social-icons a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+    background: #a48f04;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    /* font-size: 20px; */
+    padding:13px;
+    /* position: relative; */
+}
+.social-icons a:hover{
+    transform: rotate(360deg) scale(1.4);
+    transition: .7s;
+}
